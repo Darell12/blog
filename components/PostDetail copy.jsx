@@ -5,8 +5,8 @@ import moment from 'moment';
 const PostDetailE = () => {
 
   const imgP = "https://media.graphassets.com/sxifewHbSgKdcarfzVAM";
-  const slugP = "technical-seo-with-hygraph";
-  const title= "Tipos de hormonas";
+  const slugP = "hormonas-endocrino";
+  const title= "Hormonas del Sistema Endocrino";
   const categories =[{
                 "name": "Sistema Endocrino",
                 "slug": "sistema-endocrino"
@@ -103,7 +103,10 @@ const PostDetailE = () => {
             </div>
           </div>
           <h1 className="mb-8 text-3xl font-semibold text-center">{title}</h1>
-          <h1 className="mb-8 text-2xl font-semibold text-center">Hipotalamo</h1>
+		  <span>
+			¿Son muchas hormonas y no tienes idea por donde empezar? ¿Es cada vez más difícil estudiar su distribución? ¡No busques más! ¡Con ayuda de esta tabla y su organización será mucho más fácil aprenderlos!
+		  </span>
+          <h1 className="mb-8 text-2xl font-semibold text-center">Hipotálamo</h1>
 <table className='border-solid'>
 	<thead className='bg-gray-200 border-b'>
 		<tr className='bg-white border-b transition duration-300 ease-in-out hover:bg-gray-100'>
@@ -219,7 +222,7 @@ const PostDetailE = () => {
 	</tbody>
 </table>
 <br />
-<h1 className="mb-8 text-2xl font-semibold text-center">Tiroides</h1>
+<h1 className="mb-8 text-2xl font-semibold text-center">Tiróides</h1>
 <table>
 	<thead>
 		<tr className='bg-white border-b transition duration-300 ease-in-out hover:bg-gray-100'>
@@ -243,7 +246,7 @@ const PostDetailE = () => {
 	</tbody>
 </table>
 <br />
-<h1 className="mb-8 text-2xl font-semibold text-center">Paratiroides</h1>
+<h1 className="mb-8 text-2xl font-semibold text-center">Paratiróides</h1>
 <table>
 	<thead>
 		<tr className='bg-white border-b transition duration-300 ease-in-out hover:bg-gray-100'>

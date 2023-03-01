@@ -1,6 +1,7 @@
 import { PostCard, Categories, PostWidget } from '../components';
 import { getPosts } from '../services';
 import PostCardE from '../components/PostCard copy';
+import Autores from '../components/autores';
 
 export default function Home({ posts }) {
   return (
@@ -14,8 +15,10 @@ export default function Home({ posts }) {
         </div>
         <div className="lg:col-span-4 col-span-1">
           <div className="lg:sticky relative top-8">
+            <Autores/>
             <PostWidget />
             <Categories />
+            
           </div>
         </div>
       </div>

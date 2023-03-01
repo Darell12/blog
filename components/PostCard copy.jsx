@@ -6,8 +6,8 @@ import { grpahCMSImageLoader } from '../util';
 
 const PostCardE = () => {
   const imgP = "https://media.graphassets.com/sxifewHbSgKdcarfzVAM";
-  const slugP = "tipos-de-hormona";
-  const title= "Tipos de hormona";
+  const slugP = "hormonas-endocrino";
+  const title= "Hormonas del Sistema Endocrino";
   const author = {
     "bio": "",
               "name": "Brigitte Arrieta Delgado",
